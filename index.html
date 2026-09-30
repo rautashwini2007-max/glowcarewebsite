@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GlowCare | Beauty & Skincare Store</title>
+<meta name="description" content="GlowCare beauty and skincare products store">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+  <button class="logo" onclick="showPage('home')">🌸 <span>GlowCare</span></button>
+  <nav>
+    <button onclick="showPage('home')">Home</button>
+    <button onclick="showPage('products')">Products</button>
+    <button onclick="showPage('routine')">Routine</button>
+    <button onclick="showPage('about')">About</button>
+    <button onclick="showPage('contact')">Contact</button>
+  </nav>
+  <button class="cart-button" onclick="showPage('cart')">🛒 Cart <b id="cartCount">0</b></button>
+</header>
+
+<main id="app"></main>
+
+<footer>
+  <div class="footer-brand">
+    <h2>🌸 GlowCare</h2>
+    <p>Beauty that feels like you. Simple, thoughtful beauty and skincare essentials.</p>
+  </div>
+  <div><h4>Explore</h4><button onclick="showPage('products')">Products</button><button onclick="showPage('routine')">Skincare Routine</button></div>
+  <div><h4>Support</h4><button onclick="showPage('contact')">Contact Us</button><button onclick="showPage('cart')">Shopping Cart</button></div>
+  <div><h4>Our promise</h4><p>✨ Quality-focused<br>🌿 Thoughtful choices<br>💗 Customer-first</p></div>
+  <p class="copyright">© 2026 GlowCare • Academic project demo</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
